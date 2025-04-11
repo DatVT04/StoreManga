@@ -1,0 +1,16 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 29, 2024, 12:56:38 AM
+    Author     : USA
+*/
+
+.navbar-brand {
+    font-family: "Merriweather", cursive;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+

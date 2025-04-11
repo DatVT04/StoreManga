@@ -1,0 +1,65 @@
+/* CSS for Header */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+/* CSS for Product Information Page */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.product-image img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.product-details {
+    margin-left: 20px;
+}
+
+.product-details h2 {
+    margin-top: 0;
+}
+
+.product-details p {
+    margin-bottom: 10px;
+}
+
+.buy-form {
+    margin-top: 20px;
+}
+
+.btn-buy {
+    padding:6px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-buy:hover {
+    background-color: #0056b3;
+}
+.product-description {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+    white-space: pre-line; /* Giữ nguyên các khoảng trắng và xuống dòng */
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MangaShop - Doraemon</title>
+        <style>
+            /* Đặt lại kiểu mặc định */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            /* Body */
+            body {
+                font-family: 'Comic Sans MS', sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background: url('Images/goku-gif.gif') no-repeat center center fixed;
+                background-size: cover; /* Ảnh phủ toàn bộ trang */
+                overflow: hidden;
+            }
+            /* Hộp chứa nội dung */
+            .container {
+                text-align: center;
+                /*background-color: rgba(255, 255, 255, 0.8);  Màu trắng trong suốt */
+                padding: 15px; /* Giảm padding để thu gọn kích thước */
+                border-radius: 15px;
+                /*box-shadow: 0 5px 15px rgba(0,0,0,0.2);*/
+                animation: bounce 3s infinite; /* Hiệu ứng nhảy */
+                position: relative;  /* Đặt hộp trong bố cục tương đối */
+                top: 36px; /* Đẩy hộp lên trên 50px */
+            }
+            
+            a {
+                display: inline-block;
+                padding: 10px 20px; /* Giảm padding để thu gọn kích thước nút */
+                font-size: 1em; /* Giảm font-size để thu gọn chữ */
+                color: white;
+                background-color: #e74c3c; /* Màu đỏ hoạt hình */
+                border: none;
+                border-radius: 50px;
+                text-decoration: none;
+                transition: all 0.3s ease;
+                box-shadow: 0 5px 10px rgba(0,0,0,0.2); /* Đổ bóng cho nút */
+            }
+            a:hover {
+                background-color: #c0392b; /* Hiệu ứng chuyển màu */
+                transform: scale(1.1); /* Phóng to nhẹ khi hover */
+            }
+
+            /* Hiệu ứng nhảy */
+            @keyframes bounce {
+                0%, 20%, 50%, 80%, 100% {
+                    transform: translateY(0);
+                }
+                40% {
+                    transform: translateY(-20px);
+                }
+                60% {
+                    transform: translateY(-10px);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <a href="home">Go to N4GManga</a>
+        </div>
+    </body>
+</html>

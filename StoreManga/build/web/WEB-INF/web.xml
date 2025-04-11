@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+    <filter>
+        <filter-name>HomeFilter</filter-name>
+        <filter-class>filter.HomeFilter</filter-class>
+    </filter>
+    
+    <filter-mapping>
+        <filter-name>HomeFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+       
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>LoginFilter</filter-name>
+        <url-pattern>/login</url-pattern>
+        <url-pattern>/signup</url-pattern>
+        <url-pattern>/addCart</url-pattern>
+        <url-pattern>/viewCart</url-pattern>
+        <url-pattern>/changepass</url-pattern>
+        <url-pattern>/profile</url-pattern>
+        <url-pattern>/status</url-pattern>
+        <url-pattern>/checkout</url-pattern>
+    </filter-mapping>
+    <filter>
+        <filter-name>LoginFilter</filter-name>
+        <filter-class>filter.LoginFilter</filter-class>
+    </filter>
+    <filter>
+        <filter-name>RoleFilter</filter-name>
+        <filter-class>filter.RoleFilter</filter-class>
+    </filter>
+  
+
+    <filter-mapping>
+        <filter-name>RoleFilter</filter-name>
+        <url-pattern>/dashBroad</url-pattern>
+        <url-pattern>/account</url-pattern>
+        <url-pattern>/updateAccount</url-pattern>
+        <url-pattern>/deleteAccount</url-pattern>
+        <url-pattern>/addAccount</url-pattern>
+        <url-pattern>/managerProduct</url-pattern>
+        <url-pattern>/deleteProducts</url-pattern>
+        <url-pattern>/addProducts</url-pattern>
+        <url-pattern>/updateProducts</url-pattern>
+        <url-pattern>/category</url-pattern>
+        <url-pattern>/deleteCategory</url-pattern>
+        <url-pattern>/addCategory</url-pattern>
+        <url-pattern>/updateCategory</url-pattern>
+        <url-pattern>/order</url-pattern>
+        <url-pattern>/deleteOrder</url-pattern>
+          
+          
+          
+        <url-pattern>/dashBroad.jsp</url-pattern>
+        <url-pattern>/updateAccount.jsp</url-pattern>
+        <url-pattern>/addAccount.jsp</url-pattern>
+        <url-pattern>/productManager.jsp</url-pattern>
+        <url-pattern>/accountManager.jsp</url-pattern>      
+        <url-pattern>/addProducts.jsp</url-pattern>
+        <url-pattern>/updateProducts.jsp</url-pattern>
+        <url-pattern>/categoryManager.jsp</url-pattern>      
+        <url-pattern>/addCategory.jsp</url-pattern>
+        <url-pattern>/updateCategory.jsp</url-pattern>
+    </filter-mapping>
+</web-app>

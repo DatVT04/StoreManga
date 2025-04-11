@@ -1,0 +1,23 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 10, 2024, 2:38:07 AM
+    Author     : USA
+*/  .ani-fire {
+    background-image: url(https://i.pinimg.com/originals/ef/5e/4b/ef5e4b4d024c66b42311e337ae8ab4cc.gif);
+    background-position: 0 -1000px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: fire 4s linear infinite;
+}
+.ani-blue {
+    background-image: url(https://64.media.tumblr.com/0b3396be11767653e65a8df232a3edcf/ba8224bd2e4befec-62/s400x600/3566454922b0363e78aefffbb1c79964acfe10a0.gif);
+    background-position: 0 -1000px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: fire 4s linear infinite;
+}
+;
+

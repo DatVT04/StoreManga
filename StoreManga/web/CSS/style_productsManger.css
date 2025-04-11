@@ -1,0 +1,102 @@
+#wrapper {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#content-wrapper {
+    width: 80%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    position: relative; /* Để có thể định vị tương đối cho nút "Insert" */
+}
+
+h3 {
+    text-align: center;
+}
+
+.search-btn {
+    position: fixed; /* Để nút "Insert" trôi theo cuộn trang */
+    bottom: 20px; /* Khoảng cách từ nút "Insert" đến phía dưới của trang */
+    right: 20px; /* Khoảng cách từ nút "Insert" đến phía bên phải của trang */
+    z-index: 999; /* Để đảm bảo nút "Insert" luôn hiển thị trên cùng */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.table img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.btn-edit {
+    background-color: #3F51B5; /* Màu nền cho nút "Edit" */
+    color: #FFFFFF; /* Màu chữ cho nút "Edit" */
+    padding: 5px 10px; /* Kích thước của nút "Edit" */
+    border-radius: 5px; /* Bo góc cho nút "Edit" */
+    text-decoration: none; /* Loại bỏ gạch chân cho liên kết */
+}
+
+.btn-dle {
+    background-color: #FF5722; /* Màu nền cho nút "Delete" */
+    color: #FFFFFF; /* Màu chữ cho nút "Delete" */
+    padding: 5px 10px; /* Kích thước của nút "Delete" */
+    border-radius: 5px; /* Bo góc cho nút "Delete" */
+    text-decoration: none; /* Loại bỏ gạch chân cho liên kết */
+}
+
+.btn-edit:hover,
+.btn-dle:hover {
+    opacity: 0.8; /* Hiệu ứng mờ khi di chuột qua nút */
+}
+
+/* Căn chỉnh khoảng cách giữa các nút */
+td a {
+    margin-right: 5px;
+}
+.btn-edit {
+    background-color: #ffc107;
+    color: black;
+    padding: 6px 8px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-dle {
+    background-color: red;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+.btn-add:hover,
+.btn-edit:hover,
+.btn-dle:hover {
+    opacity: 0.8;
+}
+
+/* Căn chỉnh khoảng cách giữa các nút */
+
+.btn-add{
+    background-color: #28a745;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+

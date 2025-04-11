@@ -1,0 +1,85 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 5, 2024, 11:47:35 PM
+    Author     : USA
+*/
+
+/* CSS cho phần header */
+.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+/* CSS cho phần table */
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+}
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #454d55;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* CSS cho nút */
+.btn-add {
+    margin-bottom: 1rem;
+  
+}
+
+.btn-edit,
+.btn-dle {
+    margin-right: 0.5rem;
+}
+
+/* CSS cho hình ảnh */
+img {
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* CSS cho phần wrapper */
+#wrapper {
+    padding: 20px;
+}
+
+/* CSS cho phần content-wrapper */
+#content-wrapper {
+    margin-top: 20px;
+}
+.floating-add-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}

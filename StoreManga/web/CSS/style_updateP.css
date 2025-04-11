@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    padding: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea {
+    width: calc(100% - 20px); /* Subtract padding from width */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#previewImage {
+    max-width: 100px;
+    max-height: 100px;
+    display: none;
+    margin-top: 10px;
+}
+
+select {
+    width: calc(100% - 20px); /* Subtract padding from width */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+select option {
+    padding: 5px;
+}
+
+h3 {
+    color: red;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    form {
+        width: 80%;
+    }
+}
+
+.button-back {
+    background-color: #007bff; /* Màu nền */
+    border: none;
+    color: white; /* Màu chữ */
+    padding: 8px 16px; /* Kích thước */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px; /* Đường viền cong */
+    cursor: pointer;
+    transition-duration: 0.4s; /* Hiệu ứng chuyển động */
+}
+
+.button-back:hover {
+    background-color: #555; /* Màu nền khi hover */
+}

@@ -1,0 +1,132 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#anhbia {
+    position: relative;
+    overflow: hidden;
+}
+
+.slides {
+    display: none;
+}
+
+/* Style for filter form */
+form {
+    margin-bottom: 20px;
+}
+
+/* Style for radio buttons */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Style for product list */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.phone-item {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.phone-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.phone-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Style for pagination */
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.pagination a.active {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Style for footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .phone-item {
+        width: 100%;
+    }
+}
+.col-md-3 form {
+    padding-bottom: 20px; /* Khoảng cách giữa các form */
+}
+
+/* CSS cho các radio buttons được căn chỉnh theo hàng dọc */
+.col-md-3 .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Tùy chỉnh khoảng cách giữa các radio buttons */
+.col-md-3 .form-group label {
+    margin-bottom: 5px;
+}
+
+/* CSS cho các radio buttons */
+.col-md-3 .form-group input[type="radio"] {
+    margin-right: 5px; /* Khoảng cách giữa radio button và label */
+}
+.fix-colum.form-group.mr-3 {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.carousel-item img {
+    height: 460px; /* Chiều cao cố định bạn muốn */
+    object-fit: cover; /* Đảm bảo ảnh không bị méo khi thay đổi kích thước */
+}
+
+.shopping-cart-btn,
+.heart-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.shopping-cart-btn i,
+.heart-btn i {
+    font-size: 24px; /* Điều chỉnh kích thước biểu tượng */
+}
+
+.shopping-cart-btn:hover,
+.heart-btn:hover {
+    opacity: 0.7; /* Hiển thị mờ khi di chuột qua */
+}
